@@ -1,0 +1,125 @@
+/*div{
+    padding: 10px;
+    border: 1px solid black;
+}
+
+
+
+Flexbox we use this properties
+    Display
+    flex-direction
+    justify-content
+    flex
+    align-items
+
+
+
+.item1{
+    flex: 1;
+    align-self: center;
+}
+
+.item2, .item3{
+    flex: 4;
+}
+
+
+.leftSection{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    height: 300px;
+    flex: 1;
+}
+
+.rightSection{
+    display: flex;
+    flex-direction: row;
+    flex: 4;
+}
+
+.mainContainer{
+    display: flex;
+}
+    */
+/*Flexbox we use this properties
+    Display
+    flex-direction
+    justify-content
+    flex
+    align-items
+*/
+*{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    margin: 20px 0px;
+    justify-content: center;
+    align-items: center; 
+}
+
+.logo{
+    margin-right: 50px
+}
+
+.logo >img{
+    height: 60px;
+}
+
+.navbar{
+    display: flex;
+    flex-direction: row;
+    height: 75px;
+    background-color: grey;
+    margin-bottom: 20px;        
+    justify-content: right;
+}
+.menu{
+    display: flex;
+    flex-direction: row;
+    color: white;
+    font-weight: bold;
+    margin-right: 20px;
+    list-style: none;
+    align-items: center;
+}
+
+li{
+    margin-right: 40px;
+}
+
+main{
+    display: flex;
+    flex-direction: row;
+}
+
+.social{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+}
+
+.social_icon{
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+}
+
+.product{
+    border: 1px solid grey;
+    flex: 1;
+    margin: 10px;
+    padding: 20px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h2{
+    text-align: center;
+}
