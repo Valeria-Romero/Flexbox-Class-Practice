@@ -75,7 +75,7 @@ header{
     height: 75px;
     background-color: grey;
     margin-bottom: 20px;        
-    justify-content: right;
+    justify-content: flex-end;
 }
 .menu{
     display: flex;
